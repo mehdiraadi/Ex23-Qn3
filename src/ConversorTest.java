@@ -7,16 +7,16 @@ public class ConversorTest {
 	@Test
 	public void testToDegrees() {
 		Conversor c=new Conversor();
-		double output=c.toDegrees(14.59);
-		assertEquals(c.toDegrees(14.59),output,2);
+		double output=c.toDegrees(2.0);
+		assertEquals(114.5,output,2);
 		
 		
 	}
 	@Test
     public void testToRadians (){
 		Conversor c=new Conversor();
-		double output=c.toRadians(3.0);
-		assertEquals(c.toRadians(3.0),output,2);
+		double output=c.toRadians(20.0);
+		assertEquals(0.4,output,2);
 		
 	}
 
